@@ -78,8 +78,11 @@ padding-top: none;
 #main{
     margin-top: 119px;
     background-image: url('images/map-blur.png');
-    background-repeat: repeat-x;
-    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
 }
 #content{
     padding-top: 1px;
